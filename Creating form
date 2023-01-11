@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>form</title>
+</head>
+<body>
+  <form>
+    <table>
+      <tr>
+        <td><b><i>
+              <h1>FORM DENEME</h1>
+            </i></b></td>
+      <tr>
+        <td><img src="/faec78a7c49e046487dba330649b0c57.jpeg" alt="404 not found"></td>
+      </tr>
+      <tr>
+        <td><b>Adınız:</b></td>
+        <td><input type="text" placeholder="adınız ve soyadınız" /></td>
+      </tr>
+      <tr>
+        <td><b>E-mail adresiniz:</b></td>
+        <td><input type="email" placeholder="E-mail"></td>
+      </tr>
+      <tr>
+        <td><b>Şifreniz:</b></td>
+        <td><input type="password" placeholder="Şifreniz"></td>
+      </tr>
+      <tr>
+        <td><b>Cinsiyet:</b></td>
+        <td>ERKEK:<input type="radio" name="CİNSradio" checked="true"></td>
+        <td>KADIN:<input type="radio" name="CİNSradio"></td>
+      </tr>
+      <tr>
+        <td><b>Doğum tarihiniz:</b></td>
+        <td><input type="date"></td>
+      </tr>
+      <tr>
+        <td>
+          <h5>HOBİLER</h5>
+        </td>
+      </tr>
+      <tr>
+        <td><b>Kitap Okumak:</b></td>
+        <td><input type="checkbox"></td>
+      </tr>
+      <tr>
+        <td><b>Spor Yapmak:</b></td>
+        <td><input type="checkbox"></td>
+      </tr>
+      <tr>
+        <td>Enstrüman Çalmak:</td>
+        <td><input type="checkbox"></td>
+      </tr>
+      <tr>
+        <td><input type="file" value="dosya bulunamadı"></td>
+      </tr>
+      <tr>
+        <td>
+         <textarea placeholder="mesajınız" width="20" height="10"></textarea>
+        </td>
+      </tr>
+         <tr>
+          <td>Okudum,onaylıyorum<input type="radio" name="onay" ></td>
+          <td>Okudum,onaylamıyorum<input type="radio" name="onay" ></td>
+         </tr>
+         <tr>
+          <td><input type="submit" value="GÖNDER"></td>
+         </tr>
+         <tr>
+          <td><input type="reset" value="TEMİZLE"></td>
+         </tr>
+    </table>
+  </form>
+</body>
+
+</html>
